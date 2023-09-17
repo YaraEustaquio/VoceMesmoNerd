@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@200 & display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-color: #e9eaf9c5;
+}
+header {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    width: 100%;
+    height: 13vh;
+}
+.img-logo {
+  width: 28%;
+}
+ul li {
+  display: inline;
+  margin-left: 40px;
+}
+ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 150;
+  color: black;
+}
+ul li a:hover {
+    background: #9412dc;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: 0.s;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 0px auto;
+}
+.card {
+  display: flex;
+  background: #ffffff;
+  width: 85%;
+  height: 250px;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+.conteudo2 {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    margin: 0px auto;
+}
+.imagem img {
+  height: 25vh;
+  border-radius: 8px;
+  width: 300px;
+  height: 250px;
+}
+.texto {
+  padding: 35px;
+}
+.titulo a{
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.titulo a:hover{
+    color: #9412dc;
+}
+.descricao{
+    color: rgb(149, 149, 149);
+    font-size:small;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  margin: 0px auto;
+  margin-top: 5%;
+  background-color: #ffffff;
+  border-radius: 3%;
+  padding: 50px;
+}
+.conteudo h2{
+  font-size: 37px;
+  padding: 3%;
+  color: #333333;
+  max-width: 80%;
+  text-align: center;
+}
+.conteudo img{
+  max-width: 100%;
+  border-radius: 8px
+}
+.conteudo p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: #525151;
+  text-align: justify;
+  padding: 3%;
+}
+.conteudo p span{
+  font-weight: 700;
+}
+footer{
+  display: flex;
+  background: #ffffff;
+  height: 45px;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+}
